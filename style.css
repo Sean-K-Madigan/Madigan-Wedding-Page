@@ -5,6 +5,12 @@ body {
 	font-family: papyrus, arial;
 	font-weight: bold;
 	font-size: 120%;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
 }
 
 main {
@@ -22,24 +28,21 @@ header {
 .cover-photo {
 	height: 600px;
 	display:block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-width: 50%;
 	border-radius: 150px;
 }
 
 /* Subtitle color and alignment */
 h2, h3, h4 {
-	margin-left: 2%;
-	margin-right: 2%;
 	color: #F7F3E7;
 	padding-top: 40px;
+	font-weight: bolder;
 }
 
 /* Navbar configuration */
 .navbar ul {
 	list-style-type: none;
 	background: (193, 125, 124, 0.25);
+	width: 100vw;
 	padding: 0px;
 	margin: 0px;
 	overflow: hidden;
@@ -99,7 +102,6 @@ section ul {
 	list-style-type: none;
 	background: #3F523D;
 	padding: 40px;
-	margin-left: 15%;
 	border-radius: 25px;
 	width: 700px;
 }
