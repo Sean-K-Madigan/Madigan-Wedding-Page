@@ -2,6 +2,8 @@ body {
 	background-image: linear-gradient(#C17D7C,#D36C50,#B24A19,#9B300F);
 	/* #A13F22*/
 	margin: 0px;
+	margin-left: 100px;
+	margin-right: 100px;
 	font-family: papyrus, arial;
 	font-weight: bold;
 	font-size: 120%;
@@ -25,6 +27,11 @@ header {
 	padding-top: 50px;
 }
 
+h1 {
+	font-weight: bolder;
+	text-shadow: 2px 2px 3px black
+}
+
 .cover-photo {
 	height: 600px;
 	display:block;
@@ -36,6 +43,7 @@ h2, h3, h4 {
 	color: #F7F3E7;
 	padding-top: 40px;
 	font-weight: bolder;
+	text-decoration: underline;
 }
 
 /* Navbar configuration */
@@ -117,12 +125,7 @@ section ul li a {
 }
 
 /* Important Notes*/
-.notes-title {
-	text-decoration: underline;
-}
-
 .important {
-	margin-right: 15%;
 	width: 700px;
 	list-style-type: circle;
 	background: #9B300F;
@@ -190,16 +193,28 @@ td {
 /* Photo album link*/
 .album-link {
 	font-size: 175%;
-	color: #C17D7C;
 	background: #3F523D;
 	padding: 10px;
 	border-radius: 20px;
 }
 
+.album-link a {
+	color: #C17D7C;
+	text-decoration: none;
+}
+
 .album-link:hover {
 	background: #0F4C82;
 	border-radius: 20px;
+	transform: scale(1.05, 1.05);
+}
+
+.album-link a:hover {
 	color: #F0DFCD;
+}
+
+.album-link:active {
+	transform: scale(1, 1);
 }
 
 /* Venmo link*/
@@ -211,10 +226,24 @@ td {
 	border-radius: 20px;
 }
 
+.venmo a {
+	color: #C17D7C;
+	text-decoration: none;
+}
+
 .venmo:hover {
 	background: #0F4C82;
 	border-radius: 20px;
 	color: #F0DFCD;
+	transform: scale(1.05, 1.05);
+}
+
+.venmo a:hover {
+	color: #F0DFCD;
+}
+
+.venmo:active {
+	transform: scale(1, 1);
 }
 
 section p a {
