@@ -98,8 +98,8 @@ h2, h3, h4 {
 h2.thanks {
 	display: block;
 	padding: 20px;
-	margin-left: 40%;
-	margin-right: 40%;
+	margin-left: 27%;
+	margin-right: 27%;
 	margin-top: 80px;
 }
 
@@ -111,7 +111,7 @@ section ul {
 	background: #3F523D;
 	padding: 40px;
 	border-radius: 25px;
-	width: 700px;
+	text-align: left;
 }
 
 section ul li {
@@ -125,12 +125,32 @@ section ul li a {
 }
 
 /* Important Notes*/
-.important {
+.notes {
 	width: 700px;
-	list-style-type: circle;
+	list-style-type: disc;
 	background: #9B300F;
 	/*color: #F0DFCD;*/
-	
+}
+
+.pack-list {
+	list-style: disc;
+}
+
+.pack-list li h4 {
+	list-style: none;
+}
+
+.airport {
+	background-color: #C17D7C;
+	list-style: disc;
+}
+
+.airport li a {
+	color:#9B300F;
+}
+
+.airport li a:hover {
+	color:#0F4C827A;
 }
 
 /* Table configuration */
