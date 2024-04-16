@@ -39,11 +39,22 @@ h1 {
 }
 
 /* Subtitle color and alignment */
+h2 {
+	text-decoration: underline;
+}
+
+.no-line {
+	text-decoration: none;
+}
+
+h2, h3 {
+	text-shadow: 2px 2px 3px black
+}
+
 h2, h3, h4 {
 	color: #F7F3E7;
 	padding-top: 40px;
-	font-weight: bolder;
-	text-decoration: underline;
+	font-weight: bold;
 }
 
 /* Navbar configuration */
@@ -122,6 +133,19 @@ section ul li {
 section ul li a {
 	color: #B1696A;
 	text-decoration: none;
+}
+
+/* UC logo */
+.logo {
+	background-color: #F0DFCD;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+.activities-link {
+	/* font-family: arial; */
+	font-size: 26px;
+	color:#90be8a;
 }
 
 /* Important Notes*/
@@ -213,6 +237,7 @@ td {
 /* Photo album link*/
 .album-link {
 	font-size: 175%;
+	font-weight: 600;
 	background: #3F523D;
 	padding: 10px;
 	border-radius: 20px;
@@ -240,6 +265,7 @@ td {
 /* Venmo link*/
 .venmo {
 	font-size: 175%;
+	font-weight: 600;
 	color: #C17D7C;
 	background: #3F523D;
 	padding: 10px;
